@@ -56,5 +56,6 @@ const handleChat = () => {
         
 
     }, 600);
+    chatInput.value = "";
 }
 sendChatBtn.addEventListener("click", handleChat)
